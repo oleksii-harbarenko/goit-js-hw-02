@@ -4,9 +4,9 @@ function checkForSpam(message) {
     lowerCaseMessage.indexOf('spam') !== -1 ||
     lowerCaseMessage.indexOf('sale') !== -1
   ) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
